@@ -1,0 +1,39 @@
+.page-title(ng-style='{"background-image": "url({{strings.pages.contact.cover}})"}')
+	.cover
+	.container
+		.title
+			h1.text-white
+				| {{strings.pages.contact.title}}
+
+.container
+	.row
+		.col-xs-12.col-sm-6.col-md-4
+			form.row.form-contact(name='contact' method='POST')
+				.col-xs-12
+					h2.text-light
+						| {{strings.pages.contact.form.title}}
+				
+				#fields.col-xs-12.offset-top-15(ng-repeat='field in strings.pages.contact.form.fields' ng-if='field.enabled')
+					h4.text-light
+						| {{field.label}}
+					input.form-control(type='{{field.type}}' name='{{field.name}}' ng-required='{{field.required}}')
+
+				.col-xs-12.offset-top-15
+					h4.text-light
+						| {{strings.pages.contact.form['message_field'].name}}
+					textarea.form-control(type='text' rows='8' name='message' required='true')
+
+				.col-xs-12.offset-top-30
+					button.btn.btn-primary.btn-block.btn-lg(type='submit') 
+						span.fa.fa-send-o
+						|  Enviar
+
+		.col-xs-12.col-sm-6.col-md-8.map-container
+			ng-map#map(default-style="false" center='{{lattitude}},{{longitude}}' zoom='15' scrollwheel='false')
+				marker#marker(position='{{lattitude}},{{longitude}}' on-click='map.showInfoWindow("info-window")')
+				info-window#info-window(visible-on-marker='marker')
+					div(ng-non-bindable='')
+						h4.text-gray-dark {{strings.pages.contact.map.address.name}}
+						p.text-gray-dark {{strings.pages.contact.map.address.line1}}
+						p.text-gray-dark {{strings.pages.contact.map.address.line2}}
+						p.text-gray-dark {{strings.pages.contact.map.address.line3}}

@@ -1,0 +1,10 @@
+extends ./templates/_skeleton.pug
+
+block header
+	div(ng-include="'../partials/header.html'" ng-controller="HeaderCtrl as header" onload='setCollapseNavEvent()')
+
+block page
+	div(ng-view='' autoscroll)
+
+block footer
+	div(ng-include="'../partials/footer.html'")

@@ -1,0 +1,30 @@
+.page-title(ng-style='{"background-image": "url({{strings.pages.contact.cover}})"}')
+	.cover
+	.container
+		.title
+			h1.text-white
+				| {{strings.pages.about.title}}
+
+.container.offset-top-60
+	.col-xs-12.paragraph
+		h2.text-light.text-lg.text-center
+			| {{strings.pages.about.paragraph.title}}
+		.separator.separator-lg
+		p.text-sm.text-line-spacing.text-light.text-gray.text-center
+			| {{strings.pages.about.paragraph.subtitle}}
+
+.divided-text.offset-top-60.offset-bottom-60
+	.container.offset-top-30.offset-bottom-30
+		.row
+			.col-xs-12.col-sm-6
+				.left
+					h2.text-light
+						| {{strings.pages.about['divided-text'].left.title}}
+					p.text-light.text-sm.text-line-spacing.text-gray.offset-top-30
+						| {{strings.pages.about['divided-text'].left.text}}
+			.col-xs-12.col-sm-6
+				.right
+					h2.text-light
+						| {{strings.pages.about['divided-text'].right.title}}
+					p.text-light.text-sm.text-line-spacing.text-gray.offset-top-30
+						| {{strings.pages.about['divided-text'].right.text}}

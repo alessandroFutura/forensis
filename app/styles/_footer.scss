@@ -1,0 +1,38 @@
+.footer {
+	height: auto;
+	background-color: $navbar-default-bg;
+	border-top: 1px solid $navbar-default-border;
+	padding: 15px 0;
+
+	a:first-child {
+		display: block;
+		text-align: center;
+		margin-bottom: 15px;
+		@media (min-width: $screen-sm-min) {
+			margin-bottom: 0;
+		}
+	}
+
+	a.pull-right {
+		float: none !important;
+		display: block;
+		text-align: center;
+		// margin-top: 15px;
+	}
+
+	@media (min-width: $screen-sm-min) {
+		height: 50px;
+
+		a:first-child {
+			display: inline;
+			text-align: left;
+		}
+
+		a.pull-right {
+			float: right !important;
+			display: inline;
+			text-align: right;
+			margin-top: 0;
+		}		
+	}
+}

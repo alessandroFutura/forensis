@@ -1,0 +1,180 @@
+{
+	"website": {		
+		"title": "Forensis :: Soluções Periciais",
+		"description": "A Forensis Soluções Periciais foi criada visando atender ao mercado, vindo de encontro à crescente demanda de trabalhos específicos na Perícia Judicial e Assistência Técnica.",
+		"contact_mail": [{
+			"name": "contato",
+			"mail": "contato@email.com"
+		}],
+		"phone": {
+			"icon": "fa-phone",
+			"number": "(21) 99999-8888"			
+		},
+		"gmaps-api-key": "AIzaSyAweoS6Re-3ct3tPGEhRW94VsKY8nmZT9E",
+		"facebook": "",
+		"twitter": "",
+		"google-plus": "",
+		"youtube": "https://www.youtube.com/watch?v=B8NXB7zAbmg",
+		"main-logo": "images/main-logo.png"
+	},
+	"header": {
+		"navbar": {
+			"items": [{
+					"title": "Home",
+					"name": "home",
+					"href": "#/"
+				}, {
+					"title": "Sobre",
+					"name": "about",
+					"href": "#/sobre"
+				}, {
+					"title": "Serviços",
+					"name": "works",
+					"href": "#/servicos-produtos"
+				}, {
+					"title": "Contato",
+					"name": "contact",
+					"href": "#/contato"
+				}]
+		},
+		"carousel": {
+			"slides": [{
+				"image-url": "images/slide/judicial.jpg",
+				"title": "Lorem Ipsum",
+				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"button": {
+					"enabled": false,
+					"caption": "Ver mais",
+					"href": "#/sobre"
+				}
+			}, {
+				"image-url": "images/slide/fotolia.jpg",
+				"title": "Lorem Ipsum 2",
+				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"button": {
+					"enabled": false,
+					"caption": "Ver menos",
+					"href": "#/sobre"
+				}
+			}, {
+				"image-url": "images/slide/auditoria.jpg",
+				"title": "Lorem Ipsum 3",
+				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"button": {
+					"enabled": false,
+					"caption": "Ver menos",
+					"href": "#/sobre"
+				}
+			}]
+		}
+	},
+	"pages": {
+		"home": {
+			"title": "Lorem Ipsum",
+			"paragraph": {
+				"title": "Lorem ipsum dolor sit amet",
+				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo nibh, ultrices sed metus sed, varius aliquam arcu. In facilisis magna et laoreet feugiat. Ut turpis risus, egestas id odio nec, congue tempor elit. Vestibulum et mauris viverra, auctor dui venenatis, posuere neque. Vivamus mollis libero vitae lorem suscipit lobortis. Praesent non leo massa. Nunc commodo tempor pellentesque. Duis hendrerit erat diam, ut cursus turpis suscipit eu."
+			},
+			"topics": [{					
+					"icon": "fa-user-o",
+					"title": "Nullam aliquet",
+					"text": "Suspendisse urna leo, pulvinar nec dictum eget, commodo at risus. Integer feugiat quis nisl sed convallis. Nullam aliquet, lorem quis feugiat tempus, purus neque pharetra ipsum, non placerat dolor tortor vel arcu. Aenean feugiat, nisl ut porta laoreet, arcu massa molestie nibh, ut tincidunt felis massa in eros."
+				}, {
+					"icon": "fa-send-o",
+					"title": "Suspendisse ac sapien",
+					"text": "Integer in neque at dui posuere ornare sagittis ac mauris. Sed ultrices justo eu tristique lobortis. Nunc laoreet interdum leo at pretium. Suspendisse ac sapien ac purus vulputate auctor. Etiam accumsan tortor sollicitudin quam vulputate, ac dictum leo consectetur."
+				}, {
+					"icon": "fa-envelope-open-o",
+					"title": "Duis suscipit",
+					"text": "Duis suscipit ex at neque posuere pharetra. Morbi orci lorem, feugiat quis nibh vehicula, sagittis facilisis velit. In porta accumsan mi, nec ultricies risus suscipit et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+				}],
+			"quote": {
+				"title": "Lorem ipsum",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo nibh, ultrices sed metus sed, varius aliquam arcu. In facilisis magna et laoreet feugiat. Ut turpis risus, egestas id odio nec, congue tempor elit.",
+				"author": "Erich Von Daniken"
+			},
+			"sidebanner": {
+				"image-url": "../images/picture1.jpeg",
+				"title": "Morbi semper turpis ex",
+				"text": "Aenean vitae quam non eros sodales porttitor. Morbi semper turpis ex, non cursus leo luctus sed. Duis ac velit vestibulum, tincidunt velit sit amet, pharetra nulla. In iaculis vel magna nec hendrerit. Suspendisse imperdiet nisl ut dui bibendum fermentum. Donec ac facilisis felis. Mauris bibendum vitae ante non rutrum."
+			}
+		},
+		"works": {
+			"cover": "../images/picture2.jpg",
+			"title": "Serviços & Produtos",
+			"services": {
+				"title": "Lorem Ipsum",
+				"items": [{
+					"image-url": "../images/picture2.jpg",
+					"title": "Morbi semper turpis ex",
+					"description": "Aenean vitae quam non eros sodales porttitor. Morbi semper turpis ex, non cursus leo luctus sed. Duis ac velit vestibulum, tincidunt velit sit amet, pharetra nulla. In iaculis vel magna nec hendrerit. Suspendisse imperdiet nisl ut dui bibendum fermentum. Donec ac facilisis felis. Mauris bibendum vitae ante non rutrum."
+				}, {
+					"image-url": "../images/picture2.jpg",
+					"title": "Morbi semper turpis ex 2",
+					"description": "Aenean vitae quam non eros sodales porttitor. Morbi semper turpis ex, non cursus leo luctus sed. Duis ac velit vestibulum, tincidunt velit sit amet, pharetra nulla. In iaculis vel magna nec hendrerit. Suspendisse imperdiet nisl ut dui bibendum fermentum. Donec ac facilisis felis. Mauris bibendum vitae ante non rutrum."
+				}, {
+					"image-url": "../images/picture2.jpg",
+					"title": "Morbi semper turpis ex 3",
+					"description": "Aenean vitae quam non eros sodales porttitor. Morbi semper turpis ex, non cursus leo luctus sed. Duis ac velit vestibulum, tincidunt velit sit amet, pharetra nulla. In iaculis vel magna nec hendrerit. Suspendisse imperdiet nisl ut dui bibendum fermentum. Donec ac facilisis felis. Mauris bibendum vitae ante non rutrum."
+				}]
+			}
+		},
+		"about": {
+			"cover": "../images/picture2.jpg",
+			"title": "Sobre a empresa",
+			"paragraph": {
+				"title": "Lorem ipsum dolor sit amet",
+				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo nibh, ultrices sed metus sed, varius aliquam arcu. In facilisis magna et laoreet feugiat. Ut turpis risus, egestas id odio nec, congue tempor elit. Vestibulum et mauris viverra, auctor dui venenatis, posuere neque. Vivamus mollis libero vitae lorem suscipit lobortis. Praesent non leo massa. Nunc commodo tempor pellentesque. Duis hendrerit erat diam, ut cursus turpis suscipit eu."
+			},
+			"divided-text": {
+				"left": {
+					"title": "Nullam aliquet",
+					"text": "Suspendisse urna leo, pulvinar nec dictum eget, commodo at risus. Integer feugiat quis nisl sed convallis. Nullam aliquet, lorem quis feugiat tempus, purus neque pharetra ipsum, non placerat dolor tortor vel arcu. Aenean feugiat, nisl ut porta laoreet, arcu massa molestie nibh, ut tincidunt felis massa in eros."
+				},
+				"right": {
+					"title": "Suspendisse ac sapien",
+					"text": "Integer in neque at dui posuere ornare sagittis ac mauris. Sed ultrices justo eu tristique lobortis. Nunc laoreet interdum leo at pretium. Suspendisse ac sapien ac purus vulputate auctor. Etiam accumsan tortor sollicitudin quam vulputate, ac dictum leo consectetur."
+				}
+			}
+		},
+		"contact": {
+			"cover": "../images/picture2.jpg",
+			"title": "Entre em contato",
+			"map": {
+				"address": {
+					"name": "Lorem ipsum",
+					"line1": "Rua Suspendisse Urna Leo, 330",
+					"line2": "Bairro - Cidade - RJ",
+					"line3": "Tel: (21) 2222-3333"
+				},
+				"lattitude": "-22.415787",
+				"longitude": "-42.971796"
+			},			
+			"form": {
+				"title": "Fale conosco",
+				"fields": [{
+						"label": "Nome",
+						"name": "name",
+						"type": "text",
+						"required": true,
+						"enabled": true
+					}, {
+						"label": "Cidade",
+						"name": "city",
+						"type": "text",
+						"required": true,
+						"enabled": true
+					}, {
+						"label": "Email",
+						"name": "email",
+						"type": "email",
+						"required": true,
+						"enabled": true
+					}],
+				"message_field": {
+					"name": "Mensagem"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.page-title(ng-style='{"background-image": "url({{strings.pages.works.cover}})"}')
+	.cover
+	.container
+		.title
+			h1.text-white
+				| {{strings.pages.works.title}}
+
+.services.offset-top-60
+	.container
+		.row
+			.col-xs-12
+				h2.text-lg.text-center.text-light
+					| {{strings.pages.works.services.title}}
+				.separator.separator-lg
+		.row
+			.service(ng-repeat='service in strings.pages.works.services.items track by $index')
+				.col-xs-12.col-sm-6.remove-padding(ng-class='{"col-sm-push-6": $index % 2 != 0}')
+					.picture(ng-style='{ "background-image": "url( {{service[\"image-url\"]}} )" }')
+				.col-xs-12.col-sm-6(ng-class='{"col-sm-pull-6": $index % 2 != 0}')
+					.description
+						h2.text-light
+							| {{service.title}}
+						p.text-light.text-sm.text-line-spacing.text-gray.offset-top-30
+							| {{service.description}}
+
+.offset-top-60

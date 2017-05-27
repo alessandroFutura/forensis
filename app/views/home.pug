@@ -1,0 +1,43 @@
+.container.offset-top-60
+	.col-xs-12.paragraph
+		h2.text-light.text-lg.text-center
+			| {{strings.pages.home.paragraph.title}}
+		.separator.separator-lg
+		p.text-sm.text-line-spacing.text-light.text-gray.text-center
+			| {{strings.pages.home.paragraph.subtitle}}
+
+.topics.offset-top-60
+	.container.offset-top-60.offset-bottom-60
+		.row
+			.col-xs-12.col-sm-4.topic(ng-repeat='topic in strings.pages.home.topics')
+				.icon
+					i.fa.icon-lg(ng-class='topic.icon')
+				h4.text-md.text-light.text-center.offset-top-30
+					| {{topic.title}}
+				p.text-sm.text-line-spacing.text-light.text-gray.offset-top-30
+					| {{topic.text}}
+
+.container.offset-top-60
+	.col-xs-12.quote
+		h3.text-light.text-lg.text-center
+			| {{strings.pages.home.quote.title}}
+		h2.text-primary.icon-md.text-center.offset-top-30
+			span.fa.fa-quote-left
+		p.text-sm.text-line-spacing.text-light.text-gray.text-center
+			| {{strings.pages.home.quote.text}}
+		p.text-sm.text-center
+			| &mdash; {{strings.pages.home.quote.author}}
+
+.sidebanner.offset-top-60
+	.container-fluid
+		.row
+			.col-xs-12.col-sm-6.remove-padding
+				.picture(ng-style='{ "background-image": "url( {{strings.pages.home.sidebanner[\"image-url\"]}} )" }')
+			.col-xs-12.col-sm-6
+				.description
+					h2.text-light
+						| {{strings.pages.home.sidebanner.title}}
+					p.text-light.text-sm.text-line-spacing.text-gray.offset-top-30
+						| {{strings.pages.home.sidebanner.text}}
+
+.offset-top-60.offset-bottom-60

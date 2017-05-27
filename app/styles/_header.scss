@@ -1,0 +1,223 @@
+nav.navbar
+{
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+	
+	@media (min-width: $screen-sm-min)
+	{
+		background-color: rgba(#000, 0);
+	}
+
+	@include transition(bottom .25s);	
+
+	&.navbar-default
+	{
+		z-index: 5;
+		font-size: 14px;		
+
+		.navbar-collapse
+		{
+			padding: 0;
+			ul.nav.navbar-nav
+			{
+				li
+				{
+					text-transform: uppercase;
+
+					> a
+					{						
+						min-width: 100px;
+						text-align: center;
+
+						@media (min-width: $screen-sm-min)
+						{
+							padding-top: 30px;
+							padding-bottom: 30px;
+						}
+
+						&.social
+						{
+							padding-left: 15px;
+							padding-right: 15px;
+							min-width: auto;
+							display: inline-block;
+
+							@media(min-width: $screen-sm-min)
+							{
+								padding-left: 5px;
+								padding-right: 5px;
+
+								&:first-child
+								{
+									margin-left: 15px;
+								}
+							}
+						}
+					}
+
+					&.active
+					{
+						> a
+						{
+							background-color: $nav-hover-color !important;
+							color: white !important;
+							font-weight: 600 !important;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.retreat
+	{
+		background-color: rgba($main-color, 1) !important;		
+
+		.navbar-collapse ul.nav.navbar-nav li
+		{
+			@media (min-width: $screen-sm-min)
+			{
+				> a
+				{
+					padding-top: 30px !important;
+					padding-bottom: 30px !important;
+				}
+			}
+		}
+	}
+}
+
+#carousel-header
+{
+	$height: 500px;
+	$height-sm: 400px;
+
+	width: 100%;
+	height: $height-sm;
+
+	@media (min-width: $screen-sm-min)
+	{
+		height: $height;
+	}
+
+	position: relative;	
+	overflow: hidden;	
+
+	.carousel-control
+	{
+		.fa-angle-left, .fa-angle-right
+		{
+			position: absolute;
+			top: 50%;
+			z-index: 5;
+			display: inline-block;
+			margin-top: -10px;
+			
+			@media(min-width: $screen-sm-min)
+			{
+				font-size: 50px;
+			}
+		}
+
+		.fa-angle-left
+		{
+			margin-left: -10px;
+			left: 50%;
+		}
+
+		.fa-angle-right
+		{
+			margin-right: -10px;
+			right: 50%;
+		}
+	}
+
+	.item
+	{
+		width: 100%;
+		height: $height-sm;
+
+		@media (min-width: $screen-sm-min)
+		{
+			height: $height;
+		}		
+
+		> div
+		{
+			width: 100%;
+			height: $height-sm;
+
+			@media (min-width: $screen-sm-min)
+			{
+				height: $height;
+			}
+
+			position: relative;
+			overflow: hidden;
+
+			.picture
+			{				
+				background-size: cover !important;		
+			}
+
+			.cover
+			{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;			
+				z-index: 2;
+				padding: 1px;
+				opacity: 0;
+				background-color: rgba(#000, .4);
+
+				@include transition(opacity 2.5s);
+
+				.title
+				{
+					font-size: 40px;	
+					font-weight: 600;
+					margin-top: 120px;
+					color: white;
+
+					@media (min-width: $screen-sm-min) 
+					{
+						margin-top: 180px;
+					}
+				}
+
+				.subtitle
+				{
+					font-size: 20px;		
+					margin-top: 30px;
+					color: white;
+				}
+
+				a.btn
+				{
+					margin-top: 15px;
+
+					border-color: white;
+					color: white;
+
+					&:hover
+					{
+						border-color: $main-color-darker;
+					}
+
+					@media (min-width: $screen-sm-min)
+					{
+						margin-top: 30px;			
+					}
+				}
+			}
+		}
+
+		&.active > div .cover
+		{
+			opacity: 1;
+		}
+	}
+}
