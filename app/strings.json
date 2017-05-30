@@ -1,6 +1,6 @@
 {
 	"website": {		
-		"title": "Forensis :: Soluções Periciais",
+		"title": "Forensis Soluções Periciais :: Assitência Técnica judicial",
 		"description": "A Forensis Soluções Periciais foi criada visando atender ao mercado, vindo de encontro à crescente demanda de trabalhos específicos na Perícia Judicial e Assistência Técnica.",
 		"contact_mail": [{
 			"name": "contato",
@@ -122,9 +122,13 @@
 		"about": {
 			"cover": "../images/picture2.jpg",
 			"title": "Sobre a empresa",
-			"paragraph": {
+			"text": {
 				"title": "Lorem ipsum dolor sit amet",
-				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo nibh, ultrices sed metus sed, varius aliquam arcu. In facilisis magna et laoreet feugiat. Ut turpis risus, egestas id odio nec, congue tempor elit. Vestibulum et mauris viverra, auctor dui venenatis, posuere neque. Vivamus mollis libero vitae lorem suscipit lobortis. Praesent non leo massa. Nunc commodo tempor pellentesque. Duis hendrerit erat diam, ut cursus turpis suscipit eu."
+				"paragraph": [
+					{ "p": "A Forensis Soluções Periciais foi criada visando atender ao mercado, vindo de encontro à crescente demanda de trabalhos específicos na Perícia Judicial e Assistência Técnica." },
+					{ "p": "Nosso corpo técnico, em sua totalidade, é formado por Peritos Criminais  Oficiais, Pós-graduados, Mestres e Doutores, que se fazem valer da experiência cotidiana inerente à profissão e das constantes capacitações oferecidas pelos Estados da Federação, corroborando assim para uma sólida e consistente base técnica nas mais variadas áreas da Perícia, característica que norteia toda nossa linha de atuação, bem como nos devidos acompanhamentos nas áreas cíveis, criminais e trabalhistas nos processos em que estaremos atuando." },
+					{ "p": "Sólidas parcerias com especialistas das mais variadas expertises nos asseguram - seja técnica ou geograficamente - ampla gama de atuação, nos Estados do Rio de Janeiro e Espírito Santo." }
+				]
 			},
 			"divided-text": {
 				"left": {

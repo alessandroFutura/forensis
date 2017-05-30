@@ -28,25 +28,6 @@ body
 	}
 }
 
-nav.navbar
-{
-	background-color: $main-color;
-	min-height: 80px;
-
-	img
-	{
-		&#main-logo
-		{
-			width: 178px;
-		}
-	}
-
-	ul
-	{
-		margin-right: 0 !important;
-	}
-}
-
 .btn
 {
 	border-radius: 2px;
@@ -101,10 +82,10 @@ nav.navbar
 	}
 }
 
-@import "utils";
-@import "header";
-@import "footer";
 @import "home";
 @import "about";
 @import "works";
 @import "contact";
+@import "header";
+@import "footer";
+@import "utils";

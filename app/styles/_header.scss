@@ -3,6 +3,8 @@ nav.navbar
 	margin-bottom: 0;
 	border-radius: 0;
 	border: none;
+	background-color: $main-color;
+	min-height: 80px;
 	
 	@media (min-width: $screen-sm-min)
 	{
@@ -10,6 +12,41 @@ nav.navbar
 	}
 
 	@include transition(bottom .25s);	
+
+	.navbar-toggle
+	{
+		margin-top: 22px;
+	}
+
+	a.navbar-brand
+	{
+		padding: 15px 0;
+
+		img
+		{
+			&#main-logo
+			{
+				width: 178px;
+				margin: 0px 0 0 10px;
+
+				@media (min-width: $screen-sm-min){
+					width: 248px;
+					margin: -10px 0 0 10px;
+				}
+
+				@media (min-width: $screen-md-min){
+					width: 322px;
+					margin: -16px 0 0 16px;
+				}
+			}
+
+		}
+	}
+
+	ul
+	{
+		margin-right: 0 !important;
+	}
 
 	&.navbar-default
 	{
@@ -19,6 +56,8 @@ nav.navbar
 		.navbar-collapse
 		{
 			padding: 0;
+			margin-top: 20px;
+			
 			ul.nav.navbar-nav
 			{
 				li
@@ -113,6 +152,7 @@ nav.navbar
 			z-index: 5;
 			display: inline-block;
 			margin-top: -10px;
+			font-size: 48px;			 
 			
 			@media(min-width: $screen-sm-min)
 			{
@@ -174,6 +214,13 @@ nav.navbar
 				background-color: rgba(#000, .4);
 
 				@include transition(opacity 2.5s);
+
+				padding: 0 40px;
+
+				@media (min-width: $screen-sm-min)
+				{
+					padding: 0;
+				}
 
 				.title
 				{

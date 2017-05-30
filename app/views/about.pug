@@ -8,10 +8,10 @@
 .container.offset-top-60
 	.col-xs-12.paragraph
 		h2.text-light.text-lg.text-center
-			| {{strings.pages.about.paragraph.title}}
+			| {{strings.pages.about.text.title}}
 		.separator.separator-lg
-		p.text-sm.text-line-spacing.text-light.text-gray.text-center
-			| {{strings.pages.about.paragraph.subtitle}}
+		p.text-sm.text-line-spacing.text-light.text-gray.text-center(ng-repeat='p in strings.pages.about.text.paragraph')
+			| {{p.p}}
 
 .divided-text.offset-top-60.offset-bottom-60
 	.container.offset-top-30.offset-bottom-30

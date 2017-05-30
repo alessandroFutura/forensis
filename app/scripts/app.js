@@ -77,9 +77,22 @@ angular.module('forensis', [
 						'background-color': 'rgba(' + 62 + ',' + 39 + ',' + 35 + ',' + opacity + ')'
 					});
 
+					var cfg = {
+						width : 322,
+						margin : 16,
+						to : 178
+					}
+
+					else if( $window.innerWidth <= 992 )
+					{
+						cfg.width = 248;
+						cfg.margin = 10;
+					}
+
+					console.log(cfg);
 					jQuery('#main-logo').css({
-						'width': ( 322 - opacity * 144 ) + 'px',
-						'margin-top': ( -16 + opacity * 16 ) + 'px'
+						'width': ( cfg.width - ( opacity * ( cfg.width - cfg.to ))) + 'px',
+						'margin-top': ( -cfg.margin + opacity * cfg.margin ) + 'px'
 					});
 				}
 			}
