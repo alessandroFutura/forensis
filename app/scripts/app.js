@@ -83,10 +83,10 @@ angular.module('forensis', [
 						to : 178
 					}
 
-					else if( $window.innerWidth <= 992 )
+					if( $window.innerWidth <= 992 )
 					{
 						cfg.width = 248;
-						cfg.margin = 10;
+						cfg.margin = 8;
 					}
 
 					console.log(cfg);

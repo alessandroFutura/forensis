@@ -99,6 +99,42 @@
 				"text": "Aenean vitae quam non eros sodales porttitor. Morbi semper turpis ex, non cursus leo luctus sed. Duis ac velit vestibulum, tincidunt velit sit amet, pharetra nulla. In iaculis vel magna nec hendrerit. Suspendisse imperdiet nisl ut dui bibendum fermentum. Donec ac facilisis felis. Mauris bibendum vitae ante non rutrum."
 			}
 		},
+		"about": {
+			"cover": "../images/picture2.jpg",
+			"title": "Sobre a empresa",
+			"text": {
+				"title": "Forensis Soluções Periciais",
+				"paragraph": [
+					{ "p": "A Forensis Soluções Periciais foi criada visando atender ao mercado, vindo de encontro à crescente demanda de trabalhos específicos na Perícia Judicial e Assistência Técnica." },
+					{ "p": "Nosso corpo técnico, em sua totalidade, é formado por Peritos Criminais  Oficiais, Pós-graduados, Mestres e Doutores, que se fazem valer da experiência cotidiana inerente à profissão e das constantes capacitações oferecidas pelos Estados da Federação, corroborando assim para uma sólida e consistente base técnica nas mais variadas áreas da Perícia, característica que norteia toda nossa linha de atuação, bem como nos devidos acompanhamentos nas áreas cíveis, criminais e trabalhistas nos processos em que estaremos atuando." },
+					{ "p": "Sólidas parcerias com especialistas das mais variadas expertises nos asseguram - seja técnica ou geograficamente - ampla gama de atuação, nos Estados do Rio de Janeiro e Espírito Santo." }
+				]
+			},
+			"divided-text": {
+				"left": {
+					"title": "Italo de Carvalho Toledo",
+					"items": [
+						{ "i": "@" },
+						{ "i": "@" },
+						{ "i": "@" },
+						{ "i": "@" },
+						{ "i": "@" },
+						{ "i": "@" }
+					]
+				},
+				"right": {
+					"title": "Thiago de Azevedo Hermida",
+					"items": [
+						{ "i": "@" },
+						{ "i": "@" },
+						{ "i": "@" },
+						{ "i": "@" },
+						{ "i": "@" },
+						{ "i": "@" }
+					]
+				}
+			}
+		},
 		"works": {
 			"cover": "../images/picture2.jpg",
 			"title": "Serviços & Produtos",
@@ -117,28 +153,6 @@
 					"title": "Morbi semper turpis ex 3",
 					"description": "Aenean vitae quam non eros sodales porttitor. Morbi semper turpis ex, non cursus leo luctus sed. Duis ac velit vestibulum, tincidunt velit sit amet, pharetra nulla. In iaculis vel magna nec hendrerit. Suspendisse imperdiet nisl ut dui bibendum fermentum. Donec ac facilisis felis. Mauris bibendum vitae ante non rutrum."
 				}]
-			}
-		},
-		"about": {
-			"cover": "../images/picture2.jpg",
-			"title": "Sobre a empresa",
-			"text": {
-				"title": "Lorem ipsum dolor sit amet",
-				"paragraph": [
-					{ "p": "A Forensis Soluções Periciais foi criada visando atender ao mercado, vindo de encontro à crescente demanda de trabalhos específicos na Perícia Judicial e Assistência Técnica." },
-					{ "p": "Nosso corpo técnico, em sua totalidade, é formado por Peritos Criminais  Oficiais, Pós-graduados, Mestres e Doutores, que se fazem valer da experiência cotidiana inerente à profissão e das constantes capacitações oferecidas pelos Estados da Federação, corroborando assim para uma sólida e consistente base técnica nas mais variadas áreas da Perícia, característica que norteia toda nossa linha de atuação, bem como nos devidos acompanhamentos nas áreas cíveis, criminais e trabalhistas nos processos em que estaremos atuando." },
-					{ "p": "Sólidas parcerias com especialistas das mais variadas expertises nos asseguram - seja técnica ou geograficamente - ampla gama de atuação, nos Estados do Rio de Janeiro e Espírito Santo." }
-				]
-			},
-			"divided-text": {
-				"left": {
-					"title": "Nullam aliquet",
-					"text": "Suspendisse urna leo, pulvinar nec dictum eget, commodo at risus. Integer feugiat quis nisl sed convallis. Nullam aliquet, lorem quis feugiat tempus, purus neque pharetra ipsum, non placerat dolor tortor vel arcu. Aenean feugiat, nisl ut porta laoreet, arcu massa molestie nibh, ut tincidunt felis massa in eros."
-				},
-				"right": {
-					"title": "Suspendisse ac sapien",
-					"text": "Integer in neque at dui posuere ornare sagittis ac mauris. Sed ultrices justo eu tristique lobortis. Nunc laoreet interdum leo at pretium. Suspendisse ac sapien ac purus vulputate auctor. Etiam accumsan tortor sollicitudin quam vulputate, ac dictum leo consectetur."
-				}
 			}
 		},
 		"contact": {

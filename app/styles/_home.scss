@@ -1,11 +1,8 @@
 nav.navbarHome
 {
-	img
+	@media (min-width: $screen-sm-min)
 	{
-		&#main-logo
-		{
-			
-		}
+		padding-top: 20px;
 	}
 }
 

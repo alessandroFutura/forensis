@@ -3,7 +3,7 @@ nav.navbar
 	margin-bottom: 0;
 	border-radius: 0;
 	border: none;
-	background-color: $main-color;
+	background-color: rgba($main-color,1);
 	min-height: 80px;
 	
 	@media (min-width: $screen-sm-min)
@@ -24,20 +24,26 @@ nav.navbar
 
 		img
 		{
-			&#main-logo
+			&.main-logo-home
 			{
 				width: 178px;
 				margin: 0px 0 0 10px;
 
 				@media (min-width: $screen-sm-min){
 					width: 248px;
-					margin: -10px 0 0 10px;
+					margin: -8px 0 0 10px;
 				}
 
 				@media (min-width: $screen-md-min){
 					width: 322px;
-					margin: -16px 0 0 16px;
+					margin: -16px 0 0 10px;
 				}
+			}
+
+			&.main-logo-default
+			{
+				width: 178px;
+				margin: 0px 0 0 10px;
 			}
 
 		}
@@ -51,13 +57,19 @@ nav.navbar
 	&.navbar-default
 	{
 		z-index: 5;
-		font-size: 14px;		
+		font-size: 14px;
 
 		.navbar-collapse
 		{
-			padding: 0;
-			margin-top: 20px;
-			
+			padding: 10px 0 0;
+			margin-top: 16px;
+
+			@media (min-width: $screen-sm-min)
+			{
+				padding: 0;
+				margin-top: 0;
+			}
+
 			ul.nav.navbar-nav
 			{
 				li
