@@ -1,15 +1,19 @@
 .footer(ng-controller='FooterCtrl as footer')
 	.container
 		.row
-			.col-xs-12.col-sm-3
+			.col-xs-12.col-sm-4
 				a(href='/')
-					span(ng-if='!strings.website["logo-url"]') [ Logo ]
-					img.img-responsive(ng-src='{{strings.website["logo-url"]}}')
-			.col-xs-12.col-sm-6
-				p.text-white.text-center(ng-if='strings.website.phone')
-					i.fa(ng-class='strings.website.phone.icon')
-					|  {{strings.website.phone.number}}
-			.col-xs-12.col-sm-3
-				a.pull-right(href='http://futuraagencia.com.br' target='_blank')
+					img.img-responsive(ng-src='{{strings.website["foot-logo"]}}')
+			.col-xs-12.col-sm-4
+				p(ng-repeat='item in strings.header.navbar.items')
+					a(ng-href='{{item.href}}') {{item.title}}
+			//- .col-xs-12.col-sm-4
+				.contact-person(ng-repeat='contact in strings.website.contacts')
+					h2 {{contact.name}}
+					p.text-white.text-center(ng-repeat='item in contact.contact')
+						i.fa(ng-class='item.icon')
+						|  {{item.value}}
+			.col-xs-12.col-sm-4
+				a(href='http://futuraagencia.com.br' target='_blank')
 					span.fa.fa-cube
 					|  Futura Agência

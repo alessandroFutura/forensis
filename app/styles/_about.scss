@@ -1,4 +1,37 @@
-.divided-text {
+p.text-sm
+{
+	color: $main-color;
+}
+
+.divided-text
+{
 	background-color: $light-bg;
 	padding: 1px;	
+}
+
+.left, .right
+{
+	h2
+	{
+		border-left: 6px solid $main-color;
+		padding-left: 10px;
+		margin: 24px 0 20px;
+	}
+
+	ul
+	{
+		list-style: none;
+		padding-top: 12px;
+
+		li
+		{
+			padding: 4px 0;
+
+			span
+			{
+				color: $main-color;
+				margin-right: 4px;
+			}
+		}
+	}
 }

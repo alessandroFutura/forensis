@@ -6,16 +6,40 @@
 			"name": "contato",
 			"mail": "contato@email.com"
 		}],
-		"phone": {
-			"icon": "fa-phone",
-			"number": "(21) 99999-8888"			
-		},
+		"contacts": [{
+			"name": "Italo Toledo",
+			"contact": [{
+				"icon": "fa-phone",
+				"name": "Tel",
+				"value": "21 98268-4433"
+			},{
+				"icon": "fa-phone",
+				"name": "Tel",
+				"value": "22 99899-5110"
+			},{
+				"icon": "fa-envelope-open",
+				"name": "E-mail",
+				"value": "italo.toledo@forensissolucoes.com"
+			}]
+		},{
+			"name": "Thiago Hermida",
+			"contact": [{
+				"icon": "fa-phone",
+				"name": "Tel",
+				"value": "21 96475-5449"
+			},{
+				"icon": "fa-envelope-open",
+				"name": "E-mail",
+				"value": "thiagohermida@forensissolucoes.com"
+			}]
+		}],
 		"gmaps-api-key": "AIzaSyAweoS6Re-3ct3tPGEhRW94VsKY8nmZT9E",
 		"facebook": "",
 		"twitter": "",
 		"google-plus": "",
 		"youtube": "https://www.youtube.com/watch?v=B8NXB7zAbmg",
-		"main-logo": "images/main-logo.png"
+		"main-logo": "images/main-logo.png",
+		"foot-logo": "images/foot-logo.png"
 	},
 	"header": {
 		"navbar": {
@@ -30,7 +54,7 @@
 				}, {
 					"title": "Serviços",
 					"name": "works",
-					"href": "#/servicos-produtos"
+					"href": "#/servicos"
 				}, {
 					"title": "Contato",
 					"name": "contact",
@@ -77,16 +101,16 @@
 			},
 			"topics": [{					
 					"icon": "fa-user-o",
-					"title": "Nullam aliquet",
-					"text": "Suspendisse urna leo, pulvinar nec dictum eget, commodo at risus. Integer feugiat quis nisl sed convallis. Nullam aliquet, lorem quis feugiat tempus, purus neque pharetra ipsum, non placerat dolor tortor vel arcu. Aenean feugiat, nisl ut porta laoreet, arcu massa molestie nibh, ut tincidunt felis massa in eros."
+					"title": "Missão",
+					"text": "Fornecer soluções na área da perícia, atendendo e superando as expectativas de nossos parceiros, atuando de forma participativa. Elaboração de Laudos Periciais, Assistência Técnica e Perícia do Juízo."
 				}, {
 					"icon": "fa-send-o",
-					"title": "Suspendisse ac sapien",
-					"text": "Integer in neque at dui posuere ornare sagittis ac mauris. Sed ultrices justo eu tristique lobortis. Nunc laoreet interdum leo at pretium. Suspendisse ac sapien ac purus vulputate auctor. Etiam accumsan tortor sollicitudin quam vulputate, ac dictum leo consectetur."
+					"title": "Visão",
+					"text": "Sermos firmados como referência no segmento pericial."
 				}, {
 					"icon": "fa-envelope-open-o",
-					"title": "Duis suscipit",
-					"text": "Duis suscipit ex at neque posuere pharetra. Morbi orci lorem, feugiat quis nibh vehicula, sagittis facilisis velit. In porta accumsan mi, nec ultricies risus suscipit et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+					"title": "Valores",
+					"text": "Transparência, Ética, Integridade e Honestidade.<br/>Mudanças e melhorias contínuas (constante aperfeiçoamento).<br/>Respeito ao ser humano, ao meio ambiente e às Entidades legalmente constituídas.<br/>Organização como base para a qualidade.<br/>Justiça e verdade.<br/>Pró-atividade."
 				}],
 			"quote": {
 				"title": "Lorem ipsum",
@@ -111,26 +135,28 @@
 				]
 			},
 			"divided-text": {
+				"title": "Apresentação dos Sócios",
 				"left": {
 					"title": "Italo de Carvalho Toledo",
 					"items": [
-						{ "i": "@" },
-						{ "i": "@" },
-						{ "i": "@" },
-						{ "i": "@" },
-						{ "i": "@" },
-						{ "i": "@" }
+						{ "i": "Graduado em Ciências Contábeis pela Universidade Federal Fluminense" },
+						{ "i": "Pós-graduando em Perícia Judicial e Práticas Atuariais com Docência em Ensino Superior pelo Instituto Tecnológico de Ciência e Pesquisa" },
+						{ "i": "Pós-graduando em Direito do Trabalho e Processo do Trabalho pelo Centro Universitário Internacional" },
+						{ "i": "Formado em Perito Oficial de Natureza Criminal pela Academia de Polícia Sylvio Terra" },
+						{ "i": "Especializado em Perícia de Acidente de Trânsito pelo Instituto de Criminalística Carlos Éboli" },
+						{ "i": "Lotado no Posto Regional de Polícia Técnica em Campos dos Goytacazes" },
+						{ "i": "Professor de Perícia Contábil da Universidade Candido Mendes" }
 					]
 				},
 				"right": {
 					"title": "Thiago de Azevedo Hermida",
 					"items": [
-						{ "i": "@" },
-						{ "i": "@" },
-						{ "i": "@" },
-						{ "i": "@" },
-						{ "i": "@" },
-						{ "i": "@" }
+						{ "i": "Graduado em Medicina Veterinária pela Universidade Federal Fluminense" },
+						{ "i": "Residência Médica na Universidade Federal de Viçosa em Clínica Médica e Cirurgia de Pequenos Animais" },
+						{ "i": "Pós-graduação em Cirurgia ortopédica de pequenos animais pelo Instituto Equalis" },
+						{ "i": "Formado em Perito Oficial de Natureza Criminal pela Academia de Polícia Sylvio Terra" },
+						{ "i": "Especializado em Perícia de Acidente de Trânsito, Mortes Violentas e Crimes Contra a Vida pelo Instituto de Criminalística Carlos Éboli" },
+						{ "i": "Lotado na Divisão de Homicídios de Niterói/São Gonçalo" }
 					]
 				}
 			}

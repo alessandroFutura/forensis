@@ -14,6 +14,8 @@
 			| {{p.p}}
 
 .divided-text.offset-top-60.offset-bottom-60
+	h2.text-light.text-lg.text-center
+		| {{strings.pages.about['divided-text'].title}}
 	.container.offset-top-30.offset-bottom-30
 		.row
 			.col-xs-12.col-sm-6
@@ -22,6 +24,7 @@
 						| {{strings.pages.about['divided-text'].left.title}}
 					ul
 						li(ng-repeat="i in strings.pages.about['divided-text'].left.items")
+							span.glyphicon.glyphicon-ok
 							| {{i.i}}
 					//- p.text-light.text-sm.text-line-spacing.text-gray.offset-top-30
 					//- 	| {{strings.pages.about['divided-text'].left.text}}
@@ -31,6 +34,7 @@
 						| {{strings.pages.about['divided-text'].right.title}}
 					ul
 						li(ng-repeat="i in strings.pages.about['divided-text'].right.items")
+							span.glyphicon.glyphicon-ok
 							| {{i.i}}
 					//- p.text-light.text-sm.text-line-spacing.text-gray.offset-top-30
 					//- 	| {{strings.pages.about['divided-text'].right.text}}

@@ -43,7 +43,7 @@ angular.module('forensis', [
 				controllerAs: 'about',
 				resolve: resolve
 			})
-			.when('/servicos-produtos', {
+			.when('/servicos', {
 				name: 'works',
 				templateUrl: 'views/works.html',
 				controller: 'WorksCtrl',
