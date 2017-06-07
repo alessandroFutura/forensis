@@ -74,7 +74,7 @@ angular.module('forensis', [
 
 					jQuery('nav.navbar').css({
 						'padding-top': ( 20 - opacity * 20 ) + 'px',
-						'background-color': 'rgba(' + 62 + ',' + 39 + ',' + 35 + ',' + opacity + ')'
+						'background-color': 'rgba(' + 202 + ',' + 145 + ',' + 42 + ',' + opacity + ')'
 					});
 
 					var cfg = {
