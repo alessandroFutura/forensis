@@ -2,6 +2,36 @@
 	"website": {		
 		"title": "Forensis Soluções Periciais :: Assitência Técnica judicial",
 		"description": "A Forensis Soluções Periciais foi criada visando atender ao mercado, vindo de encontro à crescente demanda de trabalhos específicos na Perícia Judicial e Assistência Técnica.",
+		"gmaps-api-key": "AIzaSyAweoS6Re-3ct3tPGEhRW94VsKY8nmZT9E",
+		"main-logo": "images/main-logo.png",
+		"foot-logo": "images/foot-logo.png",
+		"links": [{
+			"title": "Home",
+			"name": "home",
+			"href": "#/"
+		}, {
+			"title": "Sobre",
+			"name": "about",
+			"href": "#/sobre"
+		}, {
+			"title": "Serviços",
+			"name": "services",
+			"href": "#/servicos"
+		}, {
+			"title": "Contato",
+			"name": "contact",
+			"href": "#/contato"
+		}],
+		"midia":[{
+			"icon": "fa-facebook",
+			"href": "#"
+		},{
+			"icon": "fa-youtube",
+			"href": "#"
+		},{
+			"icon": "fa-twitter",
+			"href": "#"
+		}],
 		"contact_mail": [{
 			"name": "contato",
 			"mail": "contato@email.com"
@@ -32,85 +62,61 @@
 				"name": "E-mail",
 				"value": "thiagohermida@forensissolucoes.com"
 			}]
-		}],
-		"gmaps-api-key": "AIzaSyAweoS6Re-3ct3tPGEhRW94VsKY8nmZT9E",
-		"facebook": "",
-		"twitter": "",
-		"google-plus": "",
-		"youtube": "https://www.youtube.com/watch?v=B8NXB7zAbmg",
-		"main-logo": "images/main-logo.png",
-		"foot-logo": "images/foot-logo.png"
+		}]		
 	},
-	"header": {
-		"navbar": {
-			"items": [{
-					"title": "Home",
-					"name": "home",
-					"href": "#/"
-				}, {
-					"title": "Sobre",
-					"name": "about",
-					"href": "#/sobre"
-				}, {
-					"title": "Serviços",
-					"name": "works",
-					"href": "#/servicos"
-				}, {
-					"title": "Contato",
-					"name": "contact",
-					"href": "#/contato"
-				}]
-		},
-		"carousel": {
-			"slides": [{
-				"image-url": "images/slide/judicial.jpg",
-				"title": "Lorem Ipsum",
-				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"button": {
-					"enabled": false,
-					"caption": "Ver mais",
-					"href": "#/sobre"
-				}
-			}, {
-				"image-url": "images/slide/fotolia.jpg",
-				"title": "Lorem Ipsum 2",
-				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"button": {
-					"enabled": false,
-					"caption": "Ver menos",
-					"href": "#/sobre"
-				}
-			}, {
-				"image-url": "images/slide/auditoria.jpg",
-				"title": "Lorem Ipsum 3",
-				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"button": {
-					"enabled": false,
-					"caption": "Ver menos",
-					"href": "#/sobre"
-				}
-			}]
+	"slides": [{
+		"src": "images/slide/judicial.jpg",
+		"title": "Lorem Ipsum",
+		"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"button": {
+			"enabled": false,
+			"caption": "Ver mais",
+			"href": "#/sobre"
 		}
-	},
+	},{
+		"src": "images/slide/fotolia.jpg",
+		"title": "Lorem Ipsum 2",
+		"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"button": {
+			"enabled": false,
+			"caption": "Ver menos",
+			"href": "#/sobre"
+		}
+	},{
+		"src": "images/slide/auditoria.jpg",
+		"title": "Lorem Ipsum 3",
+		"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"button": {
+			"enabled": false,
+			"caption": "Ver menos",
+			"href": "#/sobre"
+		}
+	}],
 	"pages": {
 		"home": {
 			"title": "Lorem Ipsum",
 			"paragraph": {
-				"title": "Lorem ipsum dolor sit amet",
-				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo nibh, ultrices sed metus sed, varius aliquam arcu. In facilisis magna et laoreet feugiat. Ut turpis risus, egestas id odio nec, congue tempor elit. Vestibulum et mauris viverra, auctor dui venenatis, posuere neque. Vivamus mollis libero vitae lorem suscipit lobortis. Praesent non leo massa. Nunc commodo tempor pellentesque. Duis hendrerit erat diam, ut cursus turpis suscipit eu."
+				"title": "Forensis",
+				"subtitle": "A Forensis Soluções Periciais foi criada visando atender ao mercado, vindo de encontro à crescente demanda de trabalhos específicos na Perícia Judicial e Assistência Técnica.",
+				"button": {
+					"enabled": true,
+					"icon": "fa fa-send",
+					"caption": "Leia mais",
+					"href": "#/sobre"
+				}
 			},
 			"topics": [{					
-					"icon": "fa-user-o",
+					"icon": "fa-send-o",
 					"title": "Missão",
 					"text": "Fornecer soluções na área da perícia, atendendo e superando as expectativas de nossos parceiros, atuando de forma participativa. Elaboração de Laudos Periciais, Assistência Técnica e Perícia do Juízo."
 				}, {
-					"icon": "fa-send-o",
+					"icon": "fa-eye",
 					"title": "Visão",
 					"text": "Sermos firmados como referência no segmento pericial."
 				}, {
-					"icon": "fa-envelope-open-o",
+					"icon": "fa-cubes",
 					"title": "Valores",
-					"text": "Transparência, Ética, Integridade e Honestidade.<br/>Mudanças e melhorias contínuas (constante aperfeiçoamento).<br/>Respeito ao ser humano, ao meio ambiente e às Entidades legalmente constituídas.<br/>Organização como base para a qualidade.<br/>Justiça e verdade.<br/>Pró-atividade."
+					"text": "Transparência, Ética, Integridade e Honestidade. Mudanças e melhorias contínuas (constante aperfeiçoamento). Respeito ao ser humano, ao meio ambiente e às Entidades legalmente constituídas. Organização como base para a qualidade. Justiça e verdade. Pró-atividade."
 				}],
 			"quote": {
 				"title": "Lorem ipsum",
@@ -161,24 +167,51 @@
 				}
 			}
 		},
-		"works": {
+		"services": {
 			"cover": "../images/picture2.jpg",
-			"title": "Serviços & Produtos",
-			"services": {
-				"title": "Lorem Ipsum",
-				"items": [{
-					"image-url": "../images/picture2.jpg",
-					"title": "Morbi semper turpis ex",
-					"description": "Aenean vitae quam non eros sodales porttitor. Morbi semper turpis ex, non cursus leo luctus sed. Duis ac velit vestibulum, tincidunt velit sit amet, pharetra nulla. In iaculis vel magna nec hendrerit. Suspendisse imperdiet nisl ut dui bibendum fermentum. Donec ac facilisis felis. Mauris bibendum vitae ante non rutrum."
-				}, {
-					"image-url": "../images/picture2.jpg",
-					"title": "Morbi semper turpis ex 2",
-					"description": "Aenean vitae quam non eros sodales porttitor. Morbi semper turpis ex, non cursus leo luctus sed. Duis ac velit vestibulum, tincidunt velit sit amet, pharetra nulla. In iaculis vel magna nec hendrerit. Suspendisse imperdiet nisl ut dui bibendum fermentum. Donec ac facilisis felis. Mauris bibendum vitae ante non rutrum."
-				}, {
-					"image-url": "../images/picture2.jpg",
-					"title": "Morbi semper turpis ex 3",
-					"description": "Aenean vitae quam non eros sodales porttitor. Morbi semper turpis ex, non cursus leo luctus sed. Duis ac velit vestibulum, tincidunt velit sit amet, pharetra nulla. In iaculis vel magna nec hendrerit. Suspendisse imperdiet nisl ut dui bibendum fermentum. Donec ac facilisis felis. Mauris bibendum vitae ante non rutrum."
-				}]
+			"title": "Serviços",
+			"specialties": {
+				"title": "Especialidades",
+				"items": [
+					{"i": "Perícia em veículos (danos, chassi e motor, etc)"},
+					{"i": "Acidentes de trânsito"},
+					{"i": "Cálculo trabalhista"},
+					{"i": "Pericia financeira (empréstimos e financiamentos bancários)"},
+					{"i": "Perícia contábil"},
+					{"i": "Perícia ambiental"},
+					{"i": "Acidente de trabalho"},
+					{"i": "Perícia médica"},
+					{"i": "Grafotécnica"},
+					{"i": "Documentoscópica"},
+					{"i": "Perícia em informática"},
+					{"i": "Perícia em áudio e imagem"},
+					{"i": "Crime contra o patrimônio"},
+					{"i": "Perícias de Engenharia"},
+					{"i": "Segurança do Trabalho"}
+				]
+			},
+			"differentials": {
+				"title": "Diferenciais",
+				"text": "Expansão de Atuação para outros Estados conforme necessidade das entidades parceiras envolvidas. Veja abaixo os estados de atuação da Forensis:",
+				"items": [
+					{"i":"Rio de janeiro"},
+					{"i":"Espírito Santo"}
+				]
+			},
+			"acting": {
+				"title": "Área de Atuação",
+				"items": [
+					{"i": "Parceria com sindicatos e seus associados"},
+					{"i": "Contratos de exclusividade bilateral"}
+				]
+			},
+			"territorial": {
+				"title": "Atuação Territorial",
+				"items": [
+					{"i": "Corpo técnico composto por Peritos Oficiais"},
+					{"i": "Valor competitivo tendo em vista o corpo técnico"},
+					{"i": "Participação colaborativa com o Sindicato"}
+				]
 			}
 		},
 		"contact": {

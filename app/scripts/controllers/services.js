@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('forensis.controllers')
-	.controller('WorksCtrl', ['$scope', 'Strings', function($scope, Strings) {
+	.controller('ServicesCtrl', ['$scope', 'Strings', function($scope, Strings) {
 	
 		$scope.strings = Strings.getData();
 

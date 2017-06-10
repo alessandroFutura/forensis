@@ -1,0 +1,17 @@
+.services
+{
+	h3
+	{
+		font-size: 18px;
+	}
+
+	.item
+	{
+		padding: 0 0 10px;
+		span
+		{
+			color: $main-color;
+			margin-right: 10px;
+		}
+	}
+}

@@ -10,27 +10,17 @@ nav.navbar.navbar-default.navbar-fixed-top(ng-class='{"navbarHome":currentPath =
 
 		#navbar.collapse.navbar-collapse
 			ul.nav.navbar-nav.navbar-right
-				li(ng-repeat='item in strings.header.navbar.items track by $index' ng-class='{"active": $index == 0}' name='{{item.name}}')
+				li(ng-repeat='item in strings.website.links track by $index' ng-class='{"active": $index == 0}' name='{{item.name}}')
 					a(ng-href='{{item.href}}') {{item.title}}
 				li.text-center
-					a.social(ng-href='{{strings.website.facebook}}' target='_blank' ng-if='strings.website.facebook')
-						i.fa.fa-facebook
-
-					a.social(ng-href='{{strings.website.twitter}}' target='_blank' ng-if='strings.website.twitter')
-						i.fa.fa-twitter
-
-					a.social(ng-href='{{strings.website["google-plus"]}}' target='_blank' ng-if='strings.website["google-plus"]')
-						i.fa.fa-google-plus
-
-					a.social(ng-href='{{strings.website.youtube}}' target='_blank' ng-if='strings.website.youtube')
-						i.fa.fa-youtube
+					a.social(ng-repeat="midia in strings.website.midia" ng-href='{{midia.href}}' target='_blank')
+						i.fa(ng-class="midia.icon")
 
 #carousel-header.carousel.slide(data-ride='carousel' ng-show='currentPath == "/"')
-	//- Wrapper for slides
 	.carousel-inner(role='listbox')
-		.item(ng-repeat="slide in strings.header.carousel.slides track by $index" ng-class='{"active": $index == 0}')
+		.item(ng-repeat="slide in strings.slides track by $index" ng-class='{"active": $index == 0}')
 			div
-				.picture(ng-parallax pattern="slide['image-url']" speed='0')
+				.picture(ng-parallax pattern="slide.src" speed='0')
 				.cover
 					h2.title.text-center
 						| {{slide.title}}
@@ -40,7 +30,6 @@ nav.navbar.navbar-default.navbar-fixed-top(ng-class='{"navbarHome":currentPath =
 						a.btn.btn-primary.btn-lg.btn-outline.text-white(ng-href='{{slide.button.href}}' ng-if='slide.button.enabled') 
 							| {{slide.button.caption}}
 
-	//- Controls
 	a.left.carousel-control(data-target="#carousel-header" role="button" data-slide='prev')
 		span.fa.fa-angle-left(aria-hidden='true')
 	a.right.carousel-control(data-target="#carousel-header" role="button" data-slide='next')

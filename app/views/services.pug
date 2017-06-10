@@ -1,0 +1,51 @@
+.page-title(ng-style='{"background-image": "url({{strings.pages.services.cover}})"}')
+	.cover
+	.container
+		.title
+			h1.text-white
+				| {{strings.pages.services.title}}
+
+.services.offset-top-60
+	.container
+
+		h2.text-lg.text-center.text-light
+			| {{strings.pages.services.specialties.title}}
+		.separator.separator-lg
+		.row.container
+			.col-xs-12.col-sm-6.item(ng-repeat="i in strings.pages.services.specialties.items")
+				span.glyphicon.glyphicon-ok
+				| {{i.i}}
+
+		.offset-top-60
+
+		h2.text-lg.text-center.text-light
+			| {{strings.pages.services.differentials.title}}
+		.separator.separator-lg
+		p.text-sm.text-line-spacing.text-light.text-gray.offset-top-30
+			| {{strings.pages.services.differentials.text}}
+		.row.container
+			.col-xs-12.col-sm-6.item(ng-repeat="i in strings.pages.services.differentials.items")
+				span.glyphicon.glyphicon-ok
+				| {{i.i}}
+
+		.offset-top-60
+
+		h2.text-lg.text-center.text-light
+			| {{strings.pages.services.acting.title}}
+		.separator.separator-lg
+		.row.container
+			.col-xs-12.col-sm-6.item(ng-repeat="i in strings.pages.services.acting.items")
+				span.glyphicon.glyphicon-ok
+				| {{i.i}}
+
+		.offset-top-60
+
+		h2.text-lg.text-center.text-light
+			| {{strings.pages.services.specialties.title}}
+		.separator.separator-lg
+		.row.container
+			.col-xs-12.col-sm-6.item(ng-repeat="i in strings.pages.services.specialties.items")
+				span.glyphicon.glyphicon-ok
+				| {{i.i}}
+
+.offset-top-60

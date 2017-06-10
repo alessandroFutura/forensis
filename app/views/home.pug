@@ -5,6 +5,9 @@
 		.separator.separator-lg
 		p.text-sm.text-line-spacing.text-light.text-gray.text-center
 			| {{strings.pages.home.paragraph.subtitle}}
+		p.text-center
+			a.btn.btn-primary.btn-lg.btn-outline.text-white(ng-href='{{strings.pages.home.paragraph.button.href}}' ng-if='strings.pages.home.paragraph.button.enabled') 
+				| {{strings.pages.home.paragraph.button.caption}}
 
 .topics.offset-top-60
 	.container.offset-top-60.offset-bottom-60

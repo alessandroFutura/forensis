@@ -44,10 +44,10 @@ angular.module('forensis', [
 				resolve: resolve
 			})
 			.when('/servicos', {
-				name: 'works',
-				templateUrl: 'views/works.html',
-				controller: 'WorksCtrl',
-				controllerAs: 'works',
+				name: 'services',
+				templateUrl: 'views/services.html',
+				controller: 'ServicesCtrl',
+				controllerAs: 'services',
 				resolve: resolve
 			})
 			.when('/contato', {
@@ -85,8 +85,8 @@ angular.module('forensis', [
 
 					if( $window.innerWidth <= 992 )
 					{
-						cfg.width = 248;
-						cfg.margin = 8;
+						cfg.width = 210;
+						cfg.margin = 4;
 					}
 
 					console.log(cfg);

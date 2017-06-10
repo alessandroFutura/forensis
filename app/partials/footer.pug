@@ -5,15 +5,17 @@
 				a(href='/')
 					img.img-responsive(ng-src='{{strings.website["foot-logo"]}}')
 			.col-xs-12.col-sm-4
-				p(ng-repeat='item in strings.header.navbar.items')
+				h2 Mapa do Site
+				span.line
+				p(ng-repeat='item in strings.website.links')
 					a(ng-href='{{item.href}}') {{item.title}}
-			//- .col-xs-12.col-sm-4
-				.contact-person(ng-repeat='contact in strings.website.contacts')
-					h2 {{contact.name}}
-					p.text-white.text-center(ng-repeat='item in contact.contact')
-						i.fa(ng-class='item.icon')
-						|  {{item.value}}
 			.col-xs-12.col-sm-4
+				h2 Social
+				span.line
+				.midia
+					a.social(ng-repeat="midia in strings.website.midia" ng-href='{{midia.href}}' target='_blank')
+						i.fa(ng-class="midia.icon")
+				br
 				a(href='http://futuraagencia.com.br' target='_blank')
 					span.fa.fa-cube
 					|  Futura Agência
